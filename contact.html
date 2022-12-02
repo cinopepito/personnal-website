@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <div class="global">
+      <div class="header">
+        <h1><img src="images/titre-site.png" alt="ma petite entreprise" /></h1>
+        <p>connait pas la crise</p>
+      </div>
+      <ul class="menu">
+        <li class="en-cours">
+          <a href="accueil.html"><span>Accueil</span></a>
+        </li>
+        <li>
+          <a href="produit.html"><span>Nos produits formidables</span></a>
+        </li>
+        <li>
+          <a href="services.html"><span>Nos services innovants</span></a>
+        </li>
+        <li>
+          <a href="contact.html"><span>Contact</span></a>
+        </li>
+      </ul>
+      <h2>Nous contacter</h2>
+
+      <form action="#">
+        <p>
+          <label for="f-nom">Nom</label>
+          <span>
+            <input type="text" class="text" id="f-nom" />
+          </span>
+        </p>
+        <p>
+          <label for="f-email">E-mail</label>
+          <span>
+            <input type="text" class="text" id="f-email" />
+          </span>
+        </p>
+        <p>
+          <label for="f-sujet">Sujet</label>
+          <span>
+            <select id="f-sujet">
+              <option>Nos produits</option>
+              <option>Nos services</option>
+              <option>Autre</option>
+            </select>
+          </span>
+        </p>
+        <p>
+          <label for="f-message">Message</label>
+          <span>
+            <textarea id="f-message" rows="5"></textarea>
+          </span>
+        </p>
+        <p>
+          <span>
+            <input type="submit" value="Envoyer le message" />
+          </span>
+        </p>
+      </form>
+
+      <h3>Coordonnées</h3>
+      <div class="footer">
+        <p>
+          écrivez-nous aussi à:<br />
+          <a href="mailto:info@mpentreprise.com">info@mpentreprise.com</a>
+        </p>
+        <p>
+          Ou télé phonez-nous:<br />
+          (+33) 1 23 45 67 89
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

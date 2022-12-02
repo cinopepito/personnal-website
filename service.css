@@ -1,0 +1,39 @@
+body {
+  font-size: 80%;
+  background: url(images/fond-page.png);
+  width: 700px;
+  margin: 0 auto;
+}
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+td,
+th {
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 105%;
+  color: #fff;
+  background: rgb(8, 149, 81);
+}
+tr > td:nth-child(even) {
+  background: rgb(98, 98, 69);
+}
+tr > td:nth-child(odd) {
+  background: red;
+}
+h2 {
+  margin-top: 20px;
+  color: #fff;
+}
+caption {
+  margin-bottom: 20px;
+  color: #fff;
+}
+.bottom {
+  color: #fff;
+}
+.bottom a {
+  color: rgb(8, 149, 81);
+}

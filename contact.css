@@ -1,0 +1,13 @@
+label {
+  display: block;
+}
+input[type="text"],
+textarea {
+  width: 400px;
+}
+.footer {
+  color: #fff;
+}
+.footer a {
+  color: red;
+}
